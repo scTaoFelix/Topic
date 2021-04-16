@@ -1,0 +1,70 @@
+.btn {
+  display: block;
+  margin: 0;
+  padding: 17px 16px;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;
+  background: #4a4c5b;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:active {
+background: #444654;
+}
+.custom-dialog-box {
+display: none;
+position: fixed;
+z-index: 100;
+z-index: 9;
+width: 270px;
+padding: 0;
+text-align: center;
+overflow: hidden;
+border-radius: 2px;
+background-color: #fff;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.title {
+margin: 30px 16px 0;
+overflow: hidden;
+white-space: nowrap;
+color: #333;
+font-size: 16px;
+line-height: 1;
+}
+.content {
+color: #666;
+font-size: 14px;
+line-height: 22px;
+}
+.button {
+overflow: hidden;
+width: 100%;
+font-size: 0;
+color: #fc9153;
+width: 100%;
+padding: 17px 10px;
+margin: 0;
+font-size: 16px;
+line-height: 1;
+text-align: center;
+text-decoration: none;
+background-color: #fff;
+background-clip: padding-box;
+box-sizing: border-box;
+border: none;
+outline: none;
+}
+.button:active {
+background-color: rgba(252,145,83,.04);
+}
